@@ -1,11 +1,18 @@
 @media (max-width: 1200px) {
-    #pizza {padding-left: 400px; border-radius: 10px 10px; box-shadow: 10px; height: 40%; width: 40%; }
+    #pizza {border-radius: 10px 10px; box-shadow: 10px; height: 40%; width: 40%; }
 }
+
 @media (max-width: 1000px) {
-    #pizza {padding-left: 400px; border-radius: 10px 10px; box-shadow: 10px; height: 30%; width: 30%; }
+    #pizza {border-radius: 10px 10px; box-shadow: 10px; height: 30%; width: 30%; }
 }
+
 @media (max-width: 800px) {
-    #pizza {padding-left: 400px; border-radius: 10px 10px; box-shadow: 10px; height: 20%; width: 20%; }
+    #pizza {border-radius: 10px 10px; box-shadow: 10px; height: 20%; width: 20%; }
 }
+
 @media (max-width: 800px) {
-    #pizza, .blog_content, .recent_post {overflow: hidden;}}
+    #pizza, .blog_content, .recent_post {overflow: hidden;}
+}
+
+@media (max-height: 650px) {
+    #list_items li {overflow: hidden; height: 20%; width: 20%;}}
