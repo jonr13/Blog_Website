@@ -1,0 +1,8 @@
+footer {
+    margin: auto auto; text-align: center; font-size: 150%; border-radius: 15px; height: 50%; width: 100%; justify-content: end;
+    border-radius: 15px; background-color: #FCB608;
+}
+
+footer input {
+    margin-bottom: 20px; margin-top: 20px; height: 20px; width: 200px; font-size: 100%;
+}
