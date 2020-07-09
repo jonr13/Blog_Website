@@ -1,0 +1,13 @@
+button {
+	border-radius: 15px;
+	background-color: #636161;
+	color: #FDFDFD;
+	border-color: #FCB608;
+	height: 40px;
+	width: 200px;
+	font-size: 100%;
+}
+
+input {
+	border-radius: 15px;
+}

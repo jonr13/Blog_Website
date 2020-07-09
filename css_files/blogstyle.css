@@ -1,0 +1,124 @@
+@import "media.css";
+@import "buttons.css";
+@import "footer.css";
+
+.main_content {
+	display: grid;
+	grid-template-columns: 65% auto;
+	grid-gap: 20px;
+	width: 100vw;
+	height: 100vh;
+	background-color: #FDFDFD;
+	grid-auto-columns: auto;
+	grid-auto-rows: auto;
+	float: bottom;
+}
+
+header {
+	display: grid;
+	grid-area: 1/2/1/2;
+	text-align: center;
+	align-items: center;
+	border-radius: 15px;
+	background-color: #FCB608;
+}
+
+figure {
+	display: inline-flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	justify-content: space-around;
+	width: 40%;
+}
+
+#main-fig {
+	display: block;
+}
+
+#tophead {
+	display: inline-block;
+	padding: 5px;
+	text-align: center;
+	position: fixed;
+	background-color: #FCB608;
+	color: #070707;
+	border-radius: 30px;
+}
+
+#tophead li {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.page_content {
+	display: block;
+}
+
+.page_content h1 {
+	font-size: 400%;
+}
+
+#blog_goal_items {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.blog_content {
+	display: grid;
+	background-color: #F3EFEF;
+	border-radius: 15px;
+	padding-left: auto;
+	padding-right: auto;
+	justify-items: center;
+	text-align: center;
+}
+
+.recent_post {
+	background-color: #F3EFEF;
+	border-radius: 15px;
+	height: 100%;
+}
+
+#my_photo {
+	border-radius: 50px;
+	height: 80%;
+	width: 10%;
+	margin-left: 10%;
+}
+
+#brunch_friends {
+	border-radius: 15px;
+	margin-right: 20px;
+}
+
+#post_content {
+	display: inline-flex;
+	justify-content: space-around;
+	height: 100%;
+}
+
+#post_content p {
+	width: 60%;
+}
+
+#post_content figure {
+	display: block;
+}
+
+#pancakes {
+	border-radius: 15px;
+	margin-right: 10px;
+	height: 90%;
+	width: 80%;
+}
+
+#my_photo {
+	border-radius: 50px;
+	height: 30%;
+	width: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
+}

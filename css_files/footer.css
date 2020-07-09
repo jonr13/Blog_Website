@@ -1,0 +1,19 @@
+footer {
+	display: block;
+	margin: auto auto;
+	text-align: center;
+	font-size: 150%;
+	background-color: #FCB608;
+	border-radius: 15px;
+	height: 100%;
+	width: 100%;
+}
+
+footer input {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	height: 20px;
+	width: 200px;
+	font-size: 100%;
+}
+
