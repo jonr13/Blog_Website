@@ -3,7 +3,7 @@
 @import "footer1.css";
 
 .main_content {
-	display: grid;
+	display: inline-block;
 	grid-template-columns: 75% auto;
 	grid-gap: 10px;
 	width: 100vw;
@@ -12,6 +12,11 @@
 	grid-auto-columns: auto;
 	grid-auto-rows: auto;
 	float: bottom;
+}
+
+footer {
+	height: 20%;
+	border-radius: 15px;
 }
 
 header {
@@ -91,4 +96,7 @@ img {
 	height: 40%;
 	width: 50%;
 	margin-left: 30px;
+}
+figcaption {
+	margin-left: 40px;
 }

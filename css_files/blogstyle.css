@@ -43,13 +43,13 @@ figure {
 	position: fixed;
 	background-color: #FCB608;
 	color: #070707;
-	border-radius: 30px;
+	border-radius: 60px;
 }
 
 #tophead li {
 	display: inline-block;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .page_content {

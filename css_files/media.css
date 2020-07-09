@@ -5,22 +5,21 @@
 	.recent_post,
 	.blog_content {
 		overflow: scroll;
-    }
-    .page_content {
-        overflow: scroll;
-        padding-top: 100px;
-    }
-    header {
-        visibility: hidden;
-    }
+	}
+	.page_content {
+		overflow: scroll;
+		padding-top: 100px;
+	}
+	header {
+		visibility: hidden;
+	}
 }
-
 
 @media (max-width: 800px) {
 	html .main_content {
 		overflow: scroll;
-        height: auto;
-        display: block;
+		height: auto;
+		display: block;
 	}
 	.page_content,
 	.blog_content {
@@ -33,28 +32,30 @@
 }
 
 @media (max-width: 700px) {
-    #post_content, #blog_goal_items {
-        display: block !important;
-        align-items: center !important;
-        text-align: center !important;
-    }
-    .page_content h4 {
-        text-align: center;
-
-    }
-    #pancakes {
-        height: 200% !important;
-        width: 120% !important;
-    }
-    .recent_post {
-        text-align: center;
-    }
-    .recent_post p {
-        margin-right: auto;
-        margin-left: auto;
-    }
-    header h3 {
-        visibility: hidden !important;
-    }
-
+	#post_content,
+	#blog_goal_items {
+		display: block !important;
+		align-items: center !important;
+		text-align: center !important;
+	}
+	.page_content h4 {
+		text-align: center;
+	}
+	#pancakes {
+		height: 200% !important;
+		width: 120% !important;
+	}
+	.recent_post {
+		text-align: center;
+	}
+	.recent_post p {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	header h3 {
+		visibility: hidden !important;
+	}
+	header {
+		height: 2px;
+	}
 }
